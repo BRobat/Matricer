@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */; };
+		7A584AB01E9A638E00C4E736 /* CalcMultiThreeXThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */; };
 		7A6F64131E97EF0F00F69684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64121E97EF0F00F69684 /* AppDelegate.swift */; };
-		7A6F64151E97EF0F00F69684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64141E97EF0F00F69684 /* ViewController.swift */; };
 		7A6F64181E97EF0F00F69684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F64161E97EF0F00F69684 /* Main.storyboard */; };
 		7A6F641A1E97EF0F00F69684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F64191E97EF0F00F69684 /* Assets.xcassets */; };
 		7A6F641D1E97EF0F00F69684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F641B1E97EF0F00F69684 /* LaunchScreen.storyboard */; };
 		7A6F64281E97EF0F00F69684 /* Matrixer_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64271E97EF0F00F69684 /* Matrixer_2Tests.swift */; };
 		7A6F64331E97EF0F00F69684 /* Matrixer_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64321E97EF0F00F69684 /* Matrixer_2UITests.swift */; };
+		7A6F64411E98074600F69684 /* 3x3mid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64401E98074600F69684 /* 3x3mid.swift */; };
+		7A6F64431E98085D00F69684 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64421E98085D00F69684 /* Const.swift */; };
+		7A6F64451E98086900F69684 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64441E98086900F69684 /* Logic.swift */; };
+		7A6F64491E9815B700F69684 /* 3x3easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64481E9815B700F69684 /* 3x3easy.swift */; };
+		7A6F644B1E981A7B00F69684 /* 3x3hard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F644A1E981A7B00F69684 /* 3x3hard.swift */; };
+		7A6F64871E99856C00F69684 /* CalcDetThreeXThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */; };
+		7A95B4AE1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */; };
+		7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */; };
+		7A95B4B21EA2ACA300B0671E /* Det2x2Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcMultiTwoXTwo.swift; sourceTree = "<group>"; };
+		7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcMultiThreeXThree.swift; sourceTree = "<group>"; };
 		7A6F640F1E97EF0F00F69684 /* Matrixer_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrixer_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6F64121E97EF0F00F69684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A6F64141E97EF0F00F69684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A6F64171E97EF0F00F69684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A6F64191E97EF0F00F69684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6F641C1E97EF0F00F69684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		7A6F642E1E97EF0F00F69684 /* Matrixer_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matrixer_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6F64321E97EF0F00F69684 /* Matrixer_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrixer_2UITests.swift; sourceTree = "<group>"; };
 		7A6F64341E97EF0F00F69684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6F64401E98074600F69684 /* 3x3mid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3x3mid.swift; sourceTree = "<group>"; };
+		7A6F64421E98085D00F69684 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		7A6F64441E98086900F69684 /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		7A6F64481E9815B700F69684 /* 3x3easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 3x3easy.swift; path = ../3x3easy.swift; sourceTree = "<group>"; };
+		7A6F644A1E981A7B00F69684 /* 3x3hard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3x3hard.swift; sourceTree = "<group>"; };
+		7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcDetThreeXThree.swift; sourceTree = "<group>"; };
+		7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcDetTwoXTwo.swift; sourceTree = "<group>"; };
+		7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Det3x3Easy.swift; sourceTree = "<group>"; };
+		7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Det2x2Easy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,19 @@
 		7A6F64111E97EF0F00F69684 /* Matrixer_2 */ = {
 			isa = PBXGroup;
 			children = (
+				7A6F64481E9815B700F69684 /* 3x3easy.swift */,
+				7A6F64401E98074600F69684 /* 3x3mid.swift */,
+				7A6F644A1E981A7B00F69684 /* 3x3hard.swift */,
 				7A6F64121E97EF0F00F69684 /* AppDelegate.swift */,
-				7A6F64141E97EF0F00F69684 /* ViewController.swift */,
 				7A6F64161E97EF0F00F69684 /* Main.storyboard */,
+				7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */,
+				7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */,
+				7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */,
+				7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */,
+				7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */,
+				7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */,
+				7A6F64441E98086900F69684 /* Logic.swift */,
+				7A6F64421E98085D00F69684 /* Const.swift */,
 				7A6F64191E97EF0F00F69684 /* Assets.xcassets */,
 				7A6F641B1E97EF0F00F69684 /* LaunchScreen.storyboard */,
 				7A6F641E1E97EF0F00F69684 /* Info.plist */,
@@ -262,8 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6F64151E97EF0F00F69684 /* ViewController.swift in Sources */,
+				7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */,
+				7A6F64871E99856C00F69684 /* CalcDetThreeXThree.swift in Sources */,
+				7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */,
+				7A6F64491E9815B700F69684 /* 3x3easy.swift in Sources */,
+				7A95B4AE1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift in Sources */,
+				7A6F64411E98074600F69684 /* 3x3mid.swift in Sources */,
+				7A584AB01E9A638E00C4E736 /* CalcMultiThreeXThree.swift in Sources */,
+				7A6F64451E98086900F69684 /* Logic.swift in Sources */,
+				7A6F64431E98085D00F69684 /* Const.swift in Sources */,
 				7A6F64131E97EF0F00F69684 /* AppDelegate.swift in Sources */,
+				7A95B4B21EA2ACA300B0671E /* Det2x2Easy.swift in Sources */,
+				7A6F644B1E981A7B00F69684 /* 3x3hard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +554,7 @@
 				7A6F64391E97EF0F00F69684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A6F643A1E97EF0F00F69684 /* Build configuration list for PBXNativeTarget "Matrixer_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +563,7 @@
 				7A6F643C1E97EF0F00F69684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A6F643D1E97EF0F00F69684 /* Build configuration list for PBXNativeTarget "Matrixer_2UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +572,7 @@
 				7A6F643F1E97EF0F00F69684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
