@@ -9,10 +9,10 @@
 import Foundation
 
 //
-let mn = 0.0
-let mxeasy = 4.0
-let mxmed = 10.0
-let mxhard = 21.0
+let mn: UInt32 = 0
+let mxeasy: UInt32 = 4
+let mxmed: UInt32 = 10
+let mxhard: UInt32 = 21
 
 //timer
 let interval = 0.1

@@ -385,7 +385,7 @@
                                         <rect key="frame" x="48" y="80" width="224" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="uVe-ot-9Aw">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="uVe-ot-9Aw">
                                                 <rect key="frame" x="8" y="8" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -393,7 +393,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Rr2-st-8uj">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Rr2-st-8uj">
                                                 <rect key="frame" x="146" y="69" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -401,7 +401,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="fpc-5b-ZmU">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="fpc-5b-ZmU">
                                                 <rect key="frame" x="8" y="69" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -409,7 +409,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="qP3-G3-KmN">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="qP3-G3-KmN">
                                                 <rect key="frame" x="146" y="8" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -436,7 +436,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzC-Xw-s0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2106" y="1456"/>
+            <point key="canvasLocation" x="2106" y="1688"/>
         </scene>
         <!--Calc Det ThreeX Three-->
         <scene sceneID="0ah-Bz-dQQ">
@@ -470,7 +470,7 @@
                                         <rect key="frame" x="8" y="70" width="304" height="144"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="0az-UH-ERv">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="0az-UH-ERv">
                                                 <rect key="frame" x="8" y="8" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -478,7 +478,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="efh-O3-Q9g">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="efh-O3-Q9g">
                                                 <rect key="frame" x="117" y="8" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -486,7 +486,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Fsr-cs-M2s">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Fsr-cs-M2s">
                                                 <rect key="frame" x="226" y="8" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -494,7 +494,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="rkq-Gx-jYO">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="rkq-Gx-jYO">
                                                 <rect key="frame" x="117" y="52" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -502,7 +502,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Hhx-Tv-5FA">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Hhx-Tv-5FA">
                                                 <rect key="frame" x="226" y="52" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -510,7 +510,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="f3X-WP-4aS">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="f3X-WP-4aS">
                                                 <rect key="frame" x="8" y="96" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -518,7 +518,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qbb-jF-D61">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Qbb-jF-D61">
                                                 <rect key="frame" x="117" y="96" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -526,7 +526,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="o0m-RO-OGT">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="o0m-RO-OGT">
                                                 <rect key="frame" x="226" y="96" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -534,7 +534,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="MTi-eF-5y1">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="MTi-eF-5y1">
                                                 <rect key="frame" x="8" y="52" width="70" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32087525729999999" green="0.45190396900000002" blue="0.32513388989999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -580,12 +580,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMu-EP-l1p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2852" y="1455"/>
+            <point key="canvasLocation" x="2852" y="1687"/>
         </scene>
         <!--det 3x3-->
         <scene sceneID="Ckq-kP-kuT">
             <objects>
-                <viewController title="det 3x3" id="XDI-uc-yUV" sceneMemberID="viewController">
+                <viewController title="det 3x3" id="XDI-uc-yUV" customClass="Det3x3Easy" customModule="Matrixer_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yX0-5P-e03"/>
                         <viewControllerLayoutGuide type="bottom" id="vEq-RX-4OR"/>
@@ -613,7 +613,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="check:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gl-YL-c1S"/>
+                                            <action selector="Check:" destination="XDI-uc-yUV" eventType="touchUpInside" id="PKA-iO-tmh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEd-Z0-ZrI">
@@ -624,7 +624,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UbN-Zx-eL6"/>
+                                            <action selector="Start:" destination="XDI-uc-yUV" eventType="touchUpInside" id="6MX-rK-Hh4"/>
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YKc-f6-III">
@@ -728,16 +728,76 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eP-WF-PXm">
+                                        <rect key="frame" x="220" y="243" width="71" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.35777029399999999" green="0.50342381000000003" blue="0.36088415979999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="-">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="minus:" destination="XDI-uc-yUV" eventType="touchUpInside" id="FRi-ri-pV0"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.67423583639999995" green="0.80643242390000003" blue="0.66903428570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="A11" destination="Hbu-Zs-e9U" id="h9Z-nh-dHe"/>
+                        <outlet property="A12" destination="fxb-18-Zxz" id="XLb-Hp-7Wo"/>
+                        <outlet property="A13" destination="oos-R0-BVd" id="BcB-Ac-Jaw"/>
+                        <outlet property="A21" destination="IzL-BR-h4I" id="Wh8-J3-dwb"/>
+                        <outlet property="A22" destination="Cvv-Af-mEN" id="7PJ-Db-Vkg"/>
+                        <outlet property="A23" destination="Ivh-hN-2uh" id="Ty8-XC-6J0"/>
+                        <outlet property="A31" destination="Z2x-JQ-n5R" id="ERW-Ma-cZG"/>
+                        <outlet property="A32" destination="ZMK-61-7Ba" id="YoJ-GG-67D"/>
+                        <outlet property="A33" destination="mIz-Fv-sbc" id="LCa-aY-s2m"/>
+                        <outlet property="det" destination="S1Z-ny-QFW" id="tKn-pi-5vm"/>
+                        <outlet property="timeLabel" destination="Qr5-wq-t0g" id="mvC-nR-nFl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0DH-O8-IdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2949" y="-289"/>
+            <point key="canvasLocation" x="2424.375" y="-578.87323943661977"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wDD-za-PCW">
+            <objects>
+                <viewController id="PmQ-0y-fIF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3hd-0E-MmD"/>
+                        <viewControllerLayoutGuide type="bottom" id="4wY-jf-1xM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j7b-oi-fPn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Caa-2h-KpS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3201" y="-581"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yDQ-yD-dyq">
+            <objects>
+                <viewController id="lXX-Xh-bfx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w8m-Ui-5VZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dTd-7F-kgQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rb1-mU-rKq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0fS-mD-5EF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3980" y="-584"/>
         </scene>
         <!--det 2x2-->
         <scene sceneID="coI-L5-DxX">
@@ -845,6 +905,17 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.67573845389999998" green="0.80536323789999997" blue="0.66631799940000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnF-S4-RHV">
+                                        <rect key="frame" x="206" y="243" width="71" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.35777029399999999" green="0.50342381000000003" blue="0.36088415979999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="-">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="minus:" destination="XDI-uc-yUV" eventType="touchUpInside" id="whV-sz-Byf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.67423583639999995" green="0.80643242390000003" blue="0.66903428570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -854,7 +925,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kli-qj-4Ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2106" y="-289"/>
+            <point key="canvasLocation" x="2426" y="203"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C3I-u5-fWS">
+            <objects>
+                <viewController id="oSc-aG-lSM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Csl-mD-Ywi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tk3-70-zEB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hNk-qR-J83">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7dj-k8-9Gf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3206" y="205"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="44n-CJ-D8Y">
+            <objects>
+                <viewController id="19J-zL-Ysv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z2R-v8-oy7"/>
+                        <viewControllerLayoutGuide type="bottom" id="OxO-0S-Acm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A0g-s8-VwY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nqe-1T-3Vj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3986" y="205"/>
         </scene>
         <!--ThreeX Three Hard-->
         <scene sceneID="NAq-qb-Z3z">
@@ -888,7 +995,6 @@
                                         </state>
                                         <connections>
                                             <action selector="check:" destination="4CC-1O-mpn" eventType="touchUpInside" id="Fmw-kY-YbL"/>
-                                            <action selector="check:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xph-uh-UlM"/>
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DjV-uS-KeQ">
@@ -978,7 +1084,6 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B9c-Kk-Qrr"/>
                                             <action selector="start:" destination="4CC-1O-mpn" eventType="touchUpInside" id="uT5-X3-qSD"/>
                                         </connections>
                                     </button>
@@ -1338,6 +1443,60 @@
             </objects>
             <point key="canvasLocation" x="328" y="-1168"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="QZ4-OF-oDQ">
+            <objects>
+                <viewController id="UHc-Ws-kFF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A4T-u3-ljG"/>
+                        <viewControllerLayoutGuide type="bottom" id="WBF-t9-IXH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RKK-ji-jay">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XJ-tn-R68" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="-2061"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sB9-4s-Zu6">
+            <objects>
+                <viewController id="K5T-vx-suW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uli-MG-NgZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="0m4-ks-ZS1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eZg-uO-swr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIM-9v-925" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2411" y="-2064"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Yu-y2-gcg">
+            <objects>
+                <viewController id="h13-ds-otu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4z6-1V-sHZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="8wN-4e-5cj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8qy-Ky-y2Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VzL-vO-gvF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3174" y="-2067"/>
+        </scene>
         <!--Matrix multiplication easy-->
         <scene sceneID="QnR-cU-CS6">
             <objects>
@@ -1527,7 +1686,6 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="check:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Na6-Gn-QPK"/>
                                             <action selector="check:" destination="90k-QX-cgK" eventType="touchUpInside" id="iol-H8-5rs"/>
                                         </connections>
                                     </button>
@@ -1618,7 +1776,6 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3rY-g3-57U"/>
                                             <action selector="start:" destination="90k-QX-cgK" eventType="touchUpInside" id="jjI-1G-uiA"/>
                                         </connections>
                                     </button>
@@ -2156,7 +2313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3F-VB-Znd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2105.625" y="654.92957746478874"/>
+            <point key="canvasLocation" x="2106" y="1042"/>
         </scene>
         <!--Calc Multi TwoX Two-->
         <scene sceneID="Q1l-Sm-rD4">
@@ -2335,7 +2492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zlz-Z8-q5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2948" y="655"/>
+            <point key="canvasLocation" x="2852" y="1042"/>
         </scene>
     </scenes>
 </document>

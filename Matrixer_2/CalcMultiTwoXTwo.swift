@@ -26,11 +26,7 @@ class CalcMultiTwoXTwo: UIViewController {
     @IBOutlet weak var C22: UILabel!
     
     
-    
-    
-    
-    
-    
+    //
     @IBAction func Calc(_ sender: UIButton) {
         
         let a11 = Int(A11.text!)

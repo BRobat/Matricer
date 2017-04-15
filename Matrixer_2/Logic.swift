@@ -9,8 +9,10 @@
 import Foundation
 
 //getting random numbers
-func rand(min: Double, max: Double) -> Int {
-    let r = drand48() * (max - min) + min
+func rand(min: UInt32, max: UInt32) -> Int {
+    
+    let r = arc4random_uniform(max - min) + min
+    //let r = number * (max - min) + min
     
     return Int(r)
 }
@@ -69,7 +71,7 @@ func calcMulti3x3(a: [Int], b: [Int]) -> [Int] {
 }
 
 //
-func calcDet2x2(a: [Int]) -> Int {
+func calcDet3x3(a: [Int]) -> Int {
     
     let det = a[0]*a[4]*a[8] + a[1]*a[5]*a[6] + a[2]*a[3]*a[7] - a[2]*a[4]*a[6] - a[1]*a[3]*a[8] - a[0]*a[5]*a[7]
     
@@ -77,7 +79,7 @@ func calcDet2x2(a: [Int]) -> Int {
 }
 
 //
-func calcDet3x3(a: [Int]) -> Int {
+func calcDet2x2(a: [Int]) -> Int {
     
     let det = a[0]*a[3] - a[1]*a[2]
     
