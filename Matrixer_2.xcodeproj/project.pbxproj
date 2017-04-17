@@ -24,6 +24,7 @@
 		7A95B4AE1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */; };
 		7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */; };
 		7A95B4B21EA2ACA300B0671E /* Det2x2Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */; };
+		7A95B4B51EA2DB7900B0671E /* HighScores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcDetTwoXTwo.swift; sourceTree = "<group>"; };
 		7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Det3x3Easy.swift; sourceTree = "<group>"; };
 		7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Det2x2Easy.swift; sourceTree = "<group>"; };
+		7A95B4B41EA2DB7900B0671E /* HighScores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HighScores.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				7A6F644A1E981A7B00F69684 /* 3x3hard.swift */,
 				7A6F64121E97EF0F00F69684 /* AppDelegate.swift */,
 				7A6F64161E97EF0F00F69684 /* Main.storyboard */,
+				7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */,
 				7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */,
 				7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */,
 				7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */,
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A95B4B51EA2DB7900B0671E /* HighScores.xcdatamodeld in Sources */,
 				7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */,
 				7A6F64871E99856C00F69684 /* CalcDetThreeXThree.swift in Sources */,
 				7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */,
@@ -575,6 +579,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A95B4B41EA2DB7900B0671E /* HighScores.xcdatamodel */,
+			);
+			currentVersion = 7A95B4B41EA2DB7900B0671E /* HighScores.xcdatamodel */;
+			path = HighScores.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7A6F64071E97EF0F00F69684 /* Project object */;
 }
