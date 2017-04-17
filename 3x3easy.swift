@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ThreeXThreeEasy: UIViewController {
     
     var time = 0.0
     var timer = Timer()
+    
 
     
     
@@ -175,6 +177,8 @@ class ThreeXThreeEasy: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     

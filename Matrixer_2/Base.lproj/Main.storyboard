@@ -2123,10 +2123,10 @@
             </objects>
             <point key="canvasLocation" x="1696.875" y="-1357.3943661971832"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller View Controller-->
         <scene sceneID="i6k-kT-Yhk">
             <objects>
-                <navigationController id="oLd-el-Zmt" sceneMemberID="viewController">
+                <navigationController id="oLd-el-Zmt" customClass="NavigationControllerViewController" customModule="Matrixer_2" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OAR-Mw-oGw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -25,6 +25,8 @@
 		7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */; };
 		7A95B4B21EA2ACA300B0671E /* Det2x2Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */; };
 		7A95B4B51EA2DB7900B0671E /* HighScores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */; };
+		7A95B4B71EA4F9C300B0671E /* main_music.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A95B4B61EA4F9C300B0671E /* main_music.caf */; };
+		7A95B4B91EA4FABA00B0671E /* NavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4B81EA4FABA00B0671E /* NavigationControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Det3x3Easy.swift; sourceTree = "<group>"; };
 		7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Det2x2Easy.swift; sourceTree = "<group>"; };
 		7A95B4B41EA2DB7900B0671E /* HighScores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HighScores.xcdatamodel; sourceTree = "<group>"; };
+		7A95B4B61EA4F9C300B0671E /* main_music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = main_music.caf; sourceTree = "<group>"; };
+		7A95B4B81EA4FABA00B0671E /* NavigationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +123,12 @@
 		7A6F64111E97EF0F00F69684 /* Matrixer_2 */ = {
 			isa = PBXGroup;
 			children = (
+				7A95B4B81EA4FABA00B0671E /* NavigationControllerViewController.swift */,
+				7A6F64161E97EF0F00F69684 /* Main.storyboard */,
 				7A6F64481E9815B700F69684 /* 3x3easy.swift */,
 				7A6F64401E98074600F69684 /* 3x3mid.swift */,
 				7A6F644A1E981A7B00F69684 /* 3x3hard.swift */,
 				7A6F64121E97EF0F00F69684 /* AppDelegate.swift */,
-				7A6F64161E97EF0F00F69684 /* Main.storyboard */,
 				7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */,
 				7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */,
 				7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */,
@@ -133,6 +138,7 @@
 				7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */,
 				7A6F64441E98086900F69684 /* Logic.swift */,
 				7A6F64421E98085D00F69684 /* Const.swift */,
+				7A95B4B61EA4F9C300B0671E /* main_music.caf */,
 				7A6F64191E97EF0F00F69684 /* Assets.xcassets */,
 				7A6F641B1E97EF0F00F69684 /* LaunchScreen.storyboard */,
 				7A6F641E1E97EF0F00F69684 /* Info.plist */,
@@ -271,6 +277,7 @@
 				7A6F641D1E97EF0F00F69684 /* LaunchScreen.storyboard in Resources */,
 				7A6F641A1E97EF0F00F69684 /* Assets.xcassets in Resources */,
 				7A6F64181E97EF0F00F69684 /* Main.storyboard in Resources */,
+				7A95B4B71EA4F9C300B0671E /* main_music.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +308,7 @@
 				7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */,
 				7A6F64491E9815B700F69684 /* 3x3easy.swift in Sources */,
 				7A95B4AE1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift in Sources */,
+				7A95B4B91EA4FABA00B0671E /* NavigationControllerViewController.swift in Sources */,
 				7A6F64411E98074600F69684 /* 3x3mid.swift in Sources */,
 				7A584AB01E9A638E00C4E736 /* CalcMultiThreeXThree.swift in Sources */,
 				7A6F64451E98086900F69684 /* Logic.swift in Sources */,
