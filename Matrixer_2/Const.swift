@@ -17,4 +17,5 @@ let mxhard: UInt32 = 21
 //timer
 let interval = 0.1
 
-
+//highscores
+public var scoreMulti3x3easy = 500

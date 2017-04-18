@@ -95,7 +95,7 @@ class ThreeXThreeMid: UIViewController {
         timeLabel.text = "0"
         
         if(!timer.isValid){
-            timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(ThreeXThreeEasy.action),userInfo: self, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(ThreeXThreeMid.action),userInfo: self, repeats: true)
         }
         
     }

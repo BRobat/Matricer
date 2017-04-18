@@ -1,5 +1,5 @@
 //
-//  3x3hard.swift
+//  3x3easy.swift
 //  Matrixer_2
 //
 //  Created by Tohil on 07/04/2017.
@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ThreeXThreeHard: UIViewController {
-
+class ThreeXThreeEasy: UIViewController {
+    
     var time = 0.0
     var timer = Timer()
+
     
     @IBOutlet var A11: UILabel!
     @IBOutlet var A12: UILabel!
@@ -47,39 +49,32 @@ class ThreeXThreeHard: UIViewController {
     
     
     
+    //
+    //
+    //
     
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
     
     @IBAction func start(_ sender: UIButton) {
-        A11.text! = String(rand(min: mn, max: mxhard))
-        A12.text! = String(rand(min: mn, max: mxhard))
-        A13.text! = String(rand(min: mn, max: mxhard))
-        A21.text! = String(rand(min: mn, max: mxhard))
-        A22.text! = String(rand(min: mn, max: mxhard))
-        A23.text! = String(rand(min: mn, max: mxhard))
-        A31.text! = String(rand(min: mn, max: mxhard))
-        A32.text! = String(rand(min: mn, max: mxhard))
-        A33.text! = String(rand(min: mn, max: mxhard))
+        A11.text! = String(rand(min: mn, max: mxeasy))
+        A12.text! = String(rand(min: mn, max: mxeasy))
+        A13.text! = String(rand(min: mn, max: mxeasy))
+        A21.text! = String(rand(min: mn, max: mxeasy))
+        A22.text! = String(rand(min: mn, max: mxeasy))
+        A23.text! = String(rand(min: mn, max: mxeasy))
+        A31.text! = String(rand(min: mn, max: mxeasy))
+        A32.text! = String(rand(min: mn, max: mxeasy))
+        A33.text! = String(rand(min: mn, max: mxeasy))
         
-        B11.text! = String(rand(min: mn, max: mxhard))
-        B12.text! = String(rand(min: mn, max: mxhard))
-        B13.text! = String(rand(min: mn, max: mxhard))
-        B21.text! = String(rand(min: mn, max: mxhard))
-        B22.text! = String(rand(min: mn, max: mxhard))
-        B23.text! = String(rand(min: mn, max: mxhard))
-        B31.text! = String(rand(min: mn, max: mxhard))
-        B32.text! = String(rand(min: mn, max: mxhard))
-        B33.text! = String(rand(min: mn, max: mxhard))
+        B11.text! = String(rand(min: mn, max: mxeasy))
+        B12.text! = String(rand(min: mn, max: mxeasy))
+        B13.text! = String(rand(min: mn, max: mxeasy))
+        B21.text! = String(rand(min: mn, max: mxeasy))
+        B22.text! = String(rand(min: mn, max: mxeasy))
+        B23.text! = String(rand(min: mn, max: mxeasy))
+        B31.text! = String(rand(min: mn, max: mxeasy))
+        B32.text! = String(rand(min: mn, max: mxeasy))
+        B33.text! = String(rand(min: mn, max: mxeasy))
         
         C11.text! = ""
         C12.text! = ""
@@ -95,10 +90,13 @@ class ThreeXThreeHard: UIViewController {
         timeLabel.text = "0"
         
         if(!timer.isValid){
-            timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(ThreeXThreeHard.action),userInfo: self, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(ThreeXThreeEasy.action),userInfo: self, repeats: true)
         }
-        
+
     }
+    
+    
+    
     
     @IBAction func check(_ sender: UIButton) {
         
@@ -142,33 +140,64 @@ class ThreeXThreeHard: UIViewController {
             b31 != nil,
             b32 != nil,
             b33 != nil{
-            
+        
             let AMatrix = getArray(a: a11!, a12!, a13!, a21!, a22!, a23!, a31!, a32!, a33!)
             let BMatrix = getArray(a: b11!, b12!, b13!, b21!, b22!, b23!, b31!, b32!, b33!)
             
             let CMatrix = calcMulti3x3(a: AMatrix, b: BMatrix)
+        
+        
+        C11.text! = checking(cond: CMatrix[0], checked: C11.text!)
+        C12.text! = checking(cond: CMatrix[1], checked: C12.text!)
+        C13.text! = checking(cond: CMatrix[2], checked: C13.text!)
+        C21.text! = checking(cond: CMatrix[3], checked: C21.text!)
+        C22.text! = checking(cond: CMatrix[4], checked: C22.text!)
+        C23.text! = checking(cond: CMatrix[5], checked: C23.text!)
+        C31.text! = checking(cond: CMatrix[6], checked: C31.text!)
+        C32.text! = checking(cond: CMatrix[7], checked: C32.text!)
+        C33.text! = checking(cond: CMatrix[8], checked: C33.text!)
+            
+             
             
             
-            C11.text! = checking(cond: CMatrix[0], checked: C11.text!)
-            C12.text! = checking(cond: CMatrix[1], checked: C12.text!)
-            C13.text! = checking(cond: CMatrix[2], checked: C13.text!)
-            C21.text! = checking(cond: CMatrix[3], checked: C21.text!)
-            C22.text! = checking(cond: CMatrix[4], checked: C22.text!)
-            C23.text! = checking(cond: CMatrix[5], checked: C23.text!)
-            C31.text! = checking(cond: CMatrix[6], checked: C31.text!)
-            C32.text! = checking(cond: CMatrix[7], checked: C32.text!)
-            C33.text! = checking(cond: CMatrix[8], checked: C33.text!)
         }
+        
         timer.invalidate()
         
+        if Int(time) < scoreMulti3x3easy {
+            
+            scoreMulti3x3easy = Int(time)
+            
+            
+        }
+
     }
+    
+    
     
     func action() {
-        time += interval
         
+        time += interval
         timeLabel.text = String(Int(time))
+        
+    }
+
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
         
     }
-    
+
 }

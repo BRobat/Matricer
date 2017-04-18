@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A006F201EA5595B005FF106 /* Highscores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A006F1F1EA5595B005FF106 /* Highscores.swift */; };
 		7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */; };
 		7A584AB01E9A638E00C4E736 /* CalcMultiThreeXThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */; };
 		7A6F64131E97EF0F00F69684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64121E97EF0F00F69684 /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A006F1F1EA5595B005FF106 /* Highscores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highscores.swift; sourceTree = "<group>"; };
 		7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcMultiTwoXTwo.swift; sourceTree = "<group>"; };
 		7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcMultiThreeXThree.swift; sourceTree = "<group>"; };
 		7A6F640F1E97EF0F00F69684 /* Matrixer_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrixer_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,11 +127,10 @@
 			children = (
 				7A95B4B81EA4FABA00B0671E /* NavigationControllerViewController.swift */,
 				7A6F64161E97EF0F00F69684 /* Main.storyboard */,
+				7A006F1F1EA5595B005FF106 /* Highscores.swift */,
 				7A6F64481E9815B700F69684 /* 3x3easy.swift */,
 				7A6F64401E98074600F69684 /* 3x3mid.swift */,
 				7A6F644A1E981A7B00F69684 /* 3x3hard.swift */,
-				7A6F64121E97EF0F00F69684 /* AppDelegate.swift */,
-				7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */,
 				7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */,
 				7A95B4B11EA2ACA300B0671E /* Det2x2Easy.swift */,
 				7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */,
@@ -138,7 +139,9 @@
 				7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */,
 				7A6F64441E98086900F69684 /* Logic.swift */,
 				7A6F64421E98085D00F69684 /* Const.swift */,
+				7A95B4B31EA2DB7900B0671E /* HighScores.xcdatamodeld */,
 				7A95B4B61EA4F9C300B0671E /* main_music.caf */,
+				7A6F64121E97EF0F00F69684 /* AppDelegate.swift */,
 				7A6F64191E97EF0F00F69684 /* Assets.xcassets */,
 				7A6F641B1E97EF0F00F69684 /* LaunchScreen.storyboard */,
 				7A6F641E1E97EF0F00F69684 /* Info.plist */,
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A006F201EA5595B005FF106 /* Highscores.swift in Sources */,
 				7A95B4B51EA2DB7900B0671E /* HighScores.xcdatamodeld in Sources */,
 				7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */,
 				7A6F64871E99856C00F69684 /* CalcDetThreeXThree.swift in Sources */,
