@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A006F201EA5595B005FF106 /* Highscores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A006F1F1EA5595B005FF106 /* Highscores.swift */; };
+		7A006F221EA62253005FF106 /* 3x3easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A006F211EA62253005FF106 /* 3x3easy.swift */; };
 		7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */; };
 		7A584AB01E9A638E00C4E736 /* CalcMultiThreeXThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */; };
 		7A6F64131E97EF0F00F69684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64121E97EF0F00F69684 /* AppDelegate.swift */; };
@@ -19,7 +20,6 @@
 		7A6F64411E98074600F69684 /* 3x3mid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64401E98074600F69684 /* 3x3mid.swift */; };
 		7A6F64431E98085D00F69684 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64421E98085D00F69684 /* Const.swift */; };
 		7A6F64451E98086900F69684 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64441E98086900F69684 /* Logic.swift */; };
-		7A6F64491E9815B700F69684 /* 3x3easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64481E9815B700F69684 /* 3x3easy.swift */; };
 		7A6F644B1E981A7B00F69684 /* 3x3hard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F644A1E981A7B00F69684 /* 3x3hard.swift */; };
 		7A6F64871E99856C00F69684 /* CalcDetThreeXThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */; };
 		7A95B4AE1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */; };
@@ -49,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		7A006F1F1EA5595B005FF106 /* Highscores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highscores.swift; sourceTree = "<group>"; };
+		7A006F211EA62253005FF106 /* 3x3easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3x3easy.swift; sourceTree = "<group>"; };
 		7A2D2FD21E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcMultiTwoXTwo.swift; sourceTree = "<group>"; };
 		7A584AAF1E9A638E00C4E736 /* CalcMultiThreeXThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcMultiThreeXThree.swift; sourceTree = "<group>"; };
 		7A6F640F1E97EF0F00F69684 /* Matrixer_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrixer_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +67,6 @@
 		7A6F64401E98074600F69684 /* 3x3mid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3x3mid.swift; sourceTree = "<group>"; };
 		7A6F64421E98085D00F69684 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		7A6F64441E98086900F69684 /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
-		7A6F64481E9815B700F69684 /* 3x3easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 3x3easy.swift; path = ../3x3easy.swift; sourceTree = "<group>"; };
 		7A6F644A1E981A7B00F69684 /* 3x3hard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3x3hard.swift; sourceTree = "<group>"; };
 		7A6F64861E99856C00F69684 /* CalcDetThreeXThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcDetThreeXThree.swift; sourceTree = "<group>"; };
 		7A95B4AD1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcDetTwoXTwo.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 				7A95B4B81EA4FABA00B0671E /* NavigationControllerViewController.swift */,
 				7A6F64161E97EF0F00F69684 /* Main.storyboard */,
 				7A006F1F1EA5595B005FF106 /* Highscores.swift */,
-				7A6F64481E9815B700F69684 /* 3x3easy.swift */,
+				7A006F211EA62253005FF106 /* 3x3easy.swift */,
 				7A6F64401E98074600F69684 /* 3x3mid.swift */,
 				7A6F644A1E981A7B00F69684 /* 3x3hard.swift */,
 				7A95B4AF1EA2AC9100B0671E /* Det3x3Easy.swift */,
@@ -310,9 +310,9 @@
 				7A95B4B01EA2AC9100B0671E /* Det3x3Easy.swift in Sources */,
 				7A6F64871E99856C00F69684 /* CalcDetThreeXThree.swift in Sources */,
 				7A2D2FD31E9ACE8000C55C74 /* CalcMultiTwoXTwo.swift in Sources */,
-				7A6F64491E9815B700F69684 /* 3x3easy.swift in Sources */,
 				7A95B4AE1EA2AA4F00B0671E /* CalcDetTwoXTwo.swift in Sources */,
 				7A95B4B91EA4FABA00B0671E /* NavigationControllerViewController.swift in Sources */,
+				7A006F221EA62253005FF106 /* 3x3easy.swift in Sources */,
 				7A6F64411E98074600F69684 /* 3x3mid.swift in Sources */,
 				7A584AB01E9A638E00C4E736 /* CalcMultiThreeXThree.swift in Sources */,
 				7A6F64451E98086900F69684 /* Logic.swift in Sources */,
